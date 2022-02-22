@@ -50,13 +50,13 @@ def process_sentences(sentences):
               cleaned_text = cleaned_text +' ' + word 
        return cleaned_text
 
-head_image = Image.open('Wine_capstone/wine_head2.jpg')
+head_image = Image.open('/Users/jadegibson/Desktop/lhl_bootcamp/Wine_capstone/wine_head2.jpg')
 
 @st.experimental_memo
 def load_data():
-       main_df = pd.read_csv('Wine_capstone/table_10k')
-       df_des = (pd.read_csv('Wine_capstone/final_description_mat').values).astype('float32')
-       df_non_des = pd.read_csv('Wine_capstone/non_description_mat').values
+       main_df = pd.read_csv('/Users/jadegibson/Desktop/lhl_bootcamp/Wine_capstone/table_10k')
+       df_des = (pd.read_csv('/Users/jadegibson/Desktop/lhl_bootcamp/Wine_capstone/final_description_mat').values).astype('float32')
+       df_non_des = pd.read_csv('/Users/jadegibson/Desktop/lhl_bootcamp/Wine_capstone/non_description_mat').values
        return main_df, df_des, df_non_des
 
 [main_df, df_des, df_non_des] = load_data()
