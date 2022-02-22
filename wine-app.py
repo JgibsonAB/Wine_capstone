@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd 
 import numpy as np
 import nltk
-#from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer, util
 import streamlit as st
 from PIL import Image
