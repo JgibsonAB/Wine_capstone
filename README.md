@@ -64,3 +64,17 @@ handle the comparisons. Currently the model is only trained on a 10k slice of th
 Hopefully in the near future when the model is done training on the 130k set and combined 130k+150k there will be more selectable features
 (eg: red/white, varietal selection.
  
+ # Stack
+## needed for eda and tf-idf 
+sklearn (for clustering)
+nltk (for text processing)
+pandas (for csv file manipulation)
+seaborn (for plotting)
+matplotlib (for plotting)
+wordcloud (for creating wordcloud graphics)
+gensim (model, npl processing)
+
+## needed for model app, and appp
+numpy (array)
+sentence_transformers (encoding, decoding, model learning)
+streamlit (to utlize as a web shareable app)
