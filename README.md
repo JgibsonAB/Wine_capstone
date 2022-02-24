@@ -44,11 +44,14 @@ Because there is some bias in the representation countries such as England will 
 scores, however only 63 wines were reviewd with English origin. Generally the battle for best wines, best by price point given
 the quantity of wines comes down to the big three. America, France and Italy.
 
+![Image](wine_per1.png)
+
 On the description side of things. There will clearly be some stop words
 outside of the regular set that we will need to remove. Within the set there is some overlap
 in the name and varietys to the description. ie: Burgundy shows up as a variety, a region, and wine descriptor.
 There are definitely some distinctive words that are associated with certain wines.
 
+![Image](wine_word.png)
 
 # Modeling
 While we used tf-idf in the intial research. This will switch to the more intuative transformer/huggyface. 
